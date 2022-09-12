@@ -32,4 +32,4 @@
 <hr>
 
 ## Time to make this project
-#### Approx 4 hour to make this project
+#### Approx 3 hour to make this project

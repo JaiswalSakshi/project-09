@@ -233,3 +233,119 @@ nav{
   margin-left: 200px;
   color: #fff;
 }
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  body{
+      overflow: auto;
+  }
+  .logo{
+    margin-top: 10px;
+  }
+  nav .nav-item{
+      display: none;
+  }
+  .nav-item-active{
+    display: none;
+  }
+  .header-text h2{
+    font-size: 20px;
+  }
+  header{
+    height: 42vh;
+  }
+  .header-image{
+    margin-top: 10px;
+    height: 50vh;
+    width: 100%;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-active{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .card{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    width: 60%;
+  }
+  .card-logo{
+    height: 40px;
+  }
+  .card-head-active{
+     margin-left: 20px;
+     margin-top: 2px;
+  }
+  .card-head{
+    margin-left: 20px;
+    margin-top: 2px;
+  }
+  .card-body{
+    margin-left: 25px;
+  }
+  .company-items{
+    font-size: 15px;
+  }
+  .blog-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+  }
+  .blog-card{
+    height: 210px;
+    width: 98%;
+  }
+  .blog-content h6{
+    margin-top: 5px;
+  }
+  .blog-content h3{
+    margin-top: 5px;
+    font-size: 10px;
+  }  
+  .blog-content small{
+    margin-top: 1px;
+    font-size: 9px;
+  }
+  .faq-section{
+    height: 35vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .faq-image img{
+    height: 35vh;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .download-content h1{
+    margin-left: 10px;
+    margin-top: 250px;
+    font-size: 25px;
+  }
+  .download-email input{
+    margin-top: 250px;
+    margin-bottom: 10px;
+    padding: 8px 50px;
+  }
+  .footer-section{
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .list{
+    display: none;
+  } 
+  .logos-list{
+    display: none;
+  }
+  .footer-right{
+    margin-top: -20px;
+    margin-left: 150px;
+  } 
+}
